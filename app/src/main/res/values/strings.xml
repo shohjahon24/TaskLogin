@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GorillaTask</string>
+    <string name="long_description_app">Easily track your logs on your\nmobile device</string>
+    <string name="description_app">Electronic Logbook\nApp</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log in</string>
+    <string name="email_username">Email/Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="logs">Logs</string>
+    <string name="dot_inspection">Dot inspection</string>
+    <string name="help_support">Help support</string>
+    <string name="settings">Settings</string>
+    <string name="share_drealed">Share Drealed</string>
+</resources>
