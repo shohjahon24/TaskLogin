@@ -41,27 +41,6 @@
             android:textSize="16sp"
             android:gravity="center"
             android:text="@string/long_description_app"/>
-        
-        <Button
-            android:layout_width="240dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="64dp"
-            android:text="@string/sign_up"
-            android:textColor="@color/whiteTextColor"
-            android:textSize="18sp"
-            android:foreground="?selectableItemBackgroundBorderless"
-            android:background="@drawable/bg_button_signup"/>
-
-        <Button
-            android:id="@+id/login"
-            android:layout_width="240dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/log_in"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp"
-            android:foreground="?selectableItemBackgroundBorderless"
-            android:background="@drawable/bg_button_signin"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

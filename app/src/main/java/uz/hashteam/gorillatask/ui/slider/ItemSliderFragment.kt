@@ -7,13 +7,9 @@ import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.item_slider.*
 import uz.hashteam.gorillatask.R
 
-class ItemSliderFragment : Fragment(R.layout.item_slider), View.OnClickListener {
+class ItemSliderFragment : Fragment(R.layout.item_slider){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        login.setOnClickListener(this)
     }
 
-    override fun onClick(p0: View?) {
-        if (p0?.id == R.id.login)
-            findNavController().navigate(R.id.action_fragmentSlider_to_loginFragment)
-    }
+
 }
